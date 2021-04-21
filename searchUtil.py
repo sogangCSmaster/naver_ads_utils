@@ -55,3 +55,6 @@ class NaverSearch:
             if(self.advertiser in a.get_text()):
                 return index+1
         return -1
+
+    def __del__(self):
+        print('keyword:',self.keyword, ', advertiser:', self.advertiser, ' 객체가 삭제되었습니다.')

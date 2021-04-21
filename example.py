@@ -38,3 +38,5 @@ print(totalMobileAds)
 # return 값이 -1일 경우 첫페이지에 없는 상태
 mobileRank = collagenKeyword.currentMORank()
 print(mobileRank)
+
+del collagenKeyword
